@@ -1,6 +1,6 @@
 {
-  "name":"FLASH-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "name":"Bright Bot",
+  "description":"An easy and simple WhatsApp bot developed by Bright Larry",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
   "repository":"https://github.com/franceking1/Flash-Md",
@@ -16,26 +16,26 @@
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
+      "value":"false",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"false",
       "required":false
     }
     ,
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"false",
       "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"Bright Bot",
       "required":false
 
     } ,
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUNCOHl5QnRIL1drMXpGM0tyemVyVzdsK2p5UmFubHVwNnNEdDZxZFZWaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWEV3NmU4ZzJxV0VUUFQzUWZBS2VaOVlHdUw5U0x0elZGVHdiNkxOUWdEOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVQUV4ZlN3cFZ1NlpmZXZwUmhPSDJjM2R0MHZLRzByNFcrcGdrcVlHTm04PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxNDVVK1lhbUZOZHpmL2Y3Rkk0NUhFbitpNjBkYUtUQk1yOHJNZmlJTG5FPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllEUlFBa0lyMnVhMUZVU0IwMEw2V2tSaFVWMTg5SjNPeHpFTDJUb1p4RUE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVDVGorVkZ6dk14ZnhKMHdVOUVwNm5jbGpWMFFlY2VhUmJSR0hHRWZQa1k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUtxeGRCQWJsTFF4Yi80SkhDWUxFN3NSNmxkc0RGdHd4THhyamlUa1lsQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSE5VOS9LY2hVZFpybFdmTERJaHFMTkdGK3Jwc1o3emp5a2dDeUlnQXBVOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImFZSnpBZUl3ZXZpZHdUR3hFUEdtYVNqN1NvdjViUXFXd0srRUVyRSt5bjFObGxsNUg3dUlBcDBNRndDMDlVV1UrUDhJbEtiTzJtQWFOQ1dFUWhPdEFRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTgxLCJhZHZTZWNyZXRLZXkiOiIrRGY4czZpa1dyandISjRWUUppWTlBMmJOd3k0QURHK3oybEpPYTA4dUxJPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIxQ3hXQXNOc1MwVzM0Q3FhZHVUZmdRIiwicGhvbmVJZCI6IjVmODU0ZDlmLTU2MWUtNDM3OC1iZWNmLTViZTg4YTFiMjQxZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZUk9UOHdvQWdOOElXbW9rZEVxWU5RVlF6Sm89In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUs0ZXIxaGh4cFVEc09zMUtUOXJXV1JtY1FVPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjNEQjRHMjIxIiwibWUiOnsiaWQiOiIyMzM1OTc1NDQyOTg6MzZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiQnJpZ2h0IExhcnJ5In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPVytpNElERUxEajhMQUdHQU1nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJDR0Nhci92Ymh6WVdGSm5SRm5lQU5NR3FsdnBFVFN1VHgvazRrckVtdzFrPSIsImFjY291bnRTaWduYXR1cmUiOiJBdXJEWWttSnVYS0t3V0xwYWFKWkpUUmZDQSttNkRWaDM2bXl6OHRyY1dSc1QwSHRwNnVXTWVvd3ZXbzZrYWlkWkZpVnlvUjBmSzR0YURINnduYnFEdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiZGhWbDVXQkFINnJYa3Izd3hiWi9qTWtDNm5jeS9vMlBMRzB4dkJlSUVFZEQ1a2hrVTlrdVpya0t0NG1Fb0JNRTVLN2lJUmtFTGxPZVplQU9GRE9LREE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzM1OTc1NDQyOTg6MzZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUWhnbXEvNzI0YzJGaFNaMFJaM2dEVEJxcGI2UkUwcms4ZjVPSkt4SnNOWiJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxMzEyMzc3MiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFONkkifQ==",
       "required": true
 
     },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "Bright Larry"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254757835036"
+    "value": "233597544298"
   },
     "WARN_COUNT":
   {
